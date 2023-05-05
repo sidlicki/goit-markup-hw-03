@@ -72,6 +72,7 @@ body {
   color: #4d5ae5;
   /*  */
   margin-right: 76px;
+  display: block;
 }
 .studio-span {
   color: var(--header-color);

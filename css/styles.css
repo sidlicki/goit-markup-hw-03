@@ -253,7 +253,7 @@ body {
 
 .our-team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .our-team-item {
@@ -266,6 +266,8 @@ body {
 .container-for-podpis {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* /////////////////////////////////////// */
@@ -279,6 +281,9 @@ body {
 }
 
 .logo-in-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+  /*  */
   font-family: var(--secondary-font-family-family);
   font-weight: 800;
   font-size: 18px;
@@ -294,8 +299,7 @@ body {
 
 .footer-description {
   font-family: 'Roboto';
-  width: 264px;
-  margin-top: 18px;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -308,6 +312,10 @@ body {
 /* /////////////////////////////////////// */
 /* PORTFOLIO sidlicki */
 /* /////////////////////////////////////// */
+.main-portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .button-portfolio {
   border: none;
   padding-top: 12px;
@@ -336,16 +344,14 @@ body {
   margin-right: auto;
   display: flex;
   justify-content: center;
-  margin-top: 96px;
+  gap: 24px;
   margin-bottom: 72px;
-  column-gap: 24px;
 }
 
 .card-portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 
 .container-for-podpis-portfolio {

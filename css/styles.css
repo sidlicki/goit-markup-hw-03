@@ -116,6 +116,7 @@ body {
 
 .header-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -129,6 +130,7 @@ body {
   gap: 40px;
 }
 .menu-item {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }

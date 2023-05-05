@@ -126,13 +126,16 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .menu-item {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
+.menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -200,7 +203,11 @@ body {
 
 .directions-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
+}
+
+.direction-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-what-doing {
@@ -209,7 +216,7 @@ body {
 
 .what-doing-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .card-title {

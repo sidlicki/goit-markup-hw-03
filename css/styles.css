@@ -317,7 +317,7 @@ body {
   padding-bottom: 120px;
 }
 .button-portfolio {
-  border: none;
+  border: 1px solid #e7e9fc;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
@@ -334,6 +334,7 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
+  border: 1px solid transparent;
   color: #ffffff;
   background-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -355,9 +356,7 @@ body {
 }
 
 .container-for-podpis-portfolio {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }

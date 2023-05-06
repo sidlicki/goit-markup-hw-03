@@ -49,14 +49,27 @@ body {
 
 .container {
   width: 1158px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
   /* padding-left: 15px;
   padding-right: 15px; */
   /* background-color: aqua; */
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* /////////////////////////////////////// */
@@ -84,6 +97,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
+  /*  */
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -109,7 +126,7 @@ body {
 }
 
 .page-header {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -130,14 +147,11 @@ body {
   gap: 40px;
 }
 .menu-item {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* display: block; */
+  /* padding-top: 24px; */
+  /* padding-bottom: 24px; */
 }
-.menu-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -151,7 +165,7 @@ body {
 .main-section {
   padding-top: 188px;
   padding-bottom: 188px;
-  display: flex;
+  /* display: flex; */
   text-align: center;
   background-color: var(--header-color);
 }
@@ -198,7 +212,7 @@ body {
 /* OTHER SECTIONS sidlicki */
 /* /////////////////////////////////////// */
 .section-two {
-  display: flex;
+  /* display: flex; */
   padding-top: 120px;
   padding-bottom: 120px;
 }
